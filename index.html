@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./CSS style/index.css" type="text/css">
+</head>
+<body>
+    
+    <!--<form action="" method = "GET">--> <!--если в экшн стоит /, то отправляет в корневую папку, 
+        или на сервер, или туда, куда укажем-->
+       <!-- <input type="submit" value = "Send">
+    </form>--> 
+    <!-- <div class="one"></div>
+    <button>move the object</button> -->
+    <!--работа с формами-->
+   <form method = "GET">
+        <b>Name</b>
+        <input type="text" placeholder="Enter name"/>
+        <br/><br/>
+        <input type="submit" value="Save"/>
+        <button id="addBtn" >One more phone</button>
+        <br/>
+        <span>Phone number</span>
+        <input type="text" name="phone" id="ph"
+        placeholder="Enter phone number"/>
+        <span>Phone type</span>
+        <select name="type">
+        <option value="1" selected>Cellular</option>
+        <option value="2">Home</option>
+        <option value="3">Work</option>
+        </select>
+        <span>Priority</span>
+        <input type="radio" name="main"
+        value="1" checked />
+        <button id="button">Elements</button>
+        <p id="out"></p>
+   </form>
+
+</body>
+<script src="./JavaScript/index.js"></script>
+</html>
